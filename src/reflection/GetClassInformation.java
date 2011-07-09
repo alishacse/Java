@@ -13,5 +13,9 @@ public class GetClassInformation {
 		
 		System.out.println("simplified classname--"+classObj.getSimpleName());
 		
+		System.out.println(classObj.getClassLoader());
+		
+		System.out.println(classObj.getSuperclass());
+		
 	}
 }
